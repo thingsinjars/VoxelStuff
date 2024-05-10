@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import org.lwjgl.BufferUtils;
 
 public class Util {
+	
 	public static FloatBuffer createFloatBuffer(int size) {
 		return BufferUtils.createFloatBuffer(size);
 	}
